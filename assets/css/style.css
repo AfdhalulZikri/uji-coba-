@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+
+nav {
+    background-color: #a79e9e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.judul-utama {
+    color: darkblue;
+}
+
+#konten {
+    padding: 20px;
+}
+
+div {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+input, textarea, select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ input[type="radio"],
+ input[type="checkbox"] {
+     width: auto;
+ }
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px; 
+    border: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.box {
+    width: 30%;
+    padding: 20px;
+    background-color: #ddd;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.box:hover {
+  background-color: #b3b2b2;
+  transform: scale(1.05);
+}
+    
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 40%;
+    }
+     nav a {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .box {
+        width: 25%;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+}
+
+img.logo {
+    display: block;
+    margin: 20px auto;
+}
+    
+nav a {
+     display: block;
+     padding: 10px;
+ }
+
+@media (min-width: 768px) {
+     nav a:hover {
+         background-color: #c41b1b;
+     }
+ }
+
+@media (min-width: 576px) {
+    .box {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+     nav a:hover {
+         background-color: #c41b1b;
+     }
+ }
+
+
+    
+
+
+
+    
+
+
